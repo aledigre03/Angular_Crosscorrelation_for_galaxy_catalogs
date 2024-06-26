@@ -186,8 +186,8 @@ bins = np.linspace(0.01, 1, 10)
 #17419 low redshift
 #17418 Euclid Alpha
 
-low_redshift_file = "17419.csv.bz2"
-Euclid_Halpha_file = "17418.csv.bz2"
+low_redshift_file = "your_catalog_name"
+Euclid_Halpha_file = "your_catalog_name"
 targ_cat1 = read_target_catalogB(Euclid_Halpha_file)     #B
 targ_cat2 = read_target_catalogA(low_redshift_file)      #A2
 ref_cat = read_reference_catalog(low_redshift_file)      #A1

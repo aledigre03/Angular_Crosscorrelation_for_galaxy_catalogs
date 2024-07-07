@@ -133,7 +133,7 @@ def compute_wtheta(rat, dect, rar, decr, rand_ra, rand_dec, bins=None, weight_t=
 
     # All the pair counts are done, get the angular correlation function
     wtheta_cross = Corrfunc.utils.convert_3d_counts_to_cf(ndata_target, ndata_reference, nrand, nrand,
-                                                          DtR_, DtR_, DrR_, RR_)
+                                                          DtDr_, DtR_, DrR_, RR_)
 
     wtheta_auto= Corrfunc.utils.convert_3d_counts_to_cf(ndata_target, ndata_target, nrand, nrand,
                                                         DtDt_, DtR_, DtR_, RR_)

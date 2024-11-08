@@ -7,4 +7,4 @@ The files in this repository were created to test and perform angular correlatio
 
 -photocorr.py is a prototype of the method implemented in redshift_correlations.py but for photometric surveys like Euclid
 
--
+-galaxy_bias.py performs the calculation of the cosmological biases derived from the data produced by the correlation. We derived an equality between the ratio of the biases that could fit our analysis, but more error analysis is required.

@@ -77,6 +77,8 @@ def generate_random_catalog(size):
 
     return ran_cat
 
+#The routine is based on James Schombert python code for the Ned Wright's javascript cosmology calculator
+#https://www.astro.ucla.edu/~wright/CosmoCalc.html
 def comoving_volume(z1, z2, Nt):
 
     '''calculates comoving volume based on redshift assuming a flat universe'''
